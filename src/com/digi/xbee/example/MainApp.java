@@ -77,8 +77,7 @@ public class MainApp {
 
 						// After Postman test then generate JAVA code ## Remenber import the needed
 						// packages/Libraries
-						// ############################################## POSTMAN
-						// CODE##############################################
+						// ############################################## POSTMAN CODE##############################################
 						OkHttpClient client = new OkHttpClient();
 						MediaType mediaType = MediaType
 							.parse("multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW");
@@ -100,8 +99,7 @@ public class MainApp {
 
 						Response response = client.newCall(request).execute();
 						response.close();
-						// ############################################## POSTMAN
-						// CODE##############################################
+						// ############################################## POSTMAN CODE##############################################
 					} else {
 						return;
 					}
