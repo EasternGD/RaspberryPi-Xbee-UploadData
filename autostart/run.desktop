@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=autoUpload
+Comment=Used to auto upload sensor data.
+Exec=lxterminal  --working-directory=Xbee/bin -e './run.sh'
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Development
+StartupNotify=true
